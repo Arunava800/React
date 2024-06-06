@@ -1,0 +1,2 @@
+**===**: It checks for equality. It yields a boolean vaule. 
+*==**: It doesnot check for the type, but only the value

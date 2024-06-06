@@ -1,0 +1,13 @@
+There are different types of values:
+a) String: Text values wrapped within the single or the double quotes,  and can also be created using the brackets
+b) Numbers: Positive or negative, with decimal points(float) and without decimal(integers)
+c) Boolean: `True` or `False` or simply yes or no value types. 
+d) Null and Undefined: "There is no value". 
+        Undefined: Default if no value was assigned yet
+        null: explicitly assigned by a developer(reset value).
+e)Objects
+
+**Variables**: Variables are the data containers which contains the data. The advantages of using variables are:
+a) Reuse the value b) increases the code readability.
+Variables are created using the `let` keyword.
+**Constants**: Constants are not reassigned. 

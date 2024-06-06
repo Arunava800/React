@@ -1,0 +1,10 @@
+The function starts with the `function`keyword;
+In javascript, arrow functions can be created.
+a)One of the way of creating anonymous function is
+export default function(){
+    console.log("This is an anaonymous function);
+}
+b) The other way of creating an anonymous functions is:
+    () => {
+        console.log("This is an anaonymous);
+    }
