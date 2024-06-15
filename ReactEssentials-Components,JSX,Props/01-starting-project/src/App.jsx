@@ -1,38 +1,7 @@
-import reactImg from './assets/react-core-concepts.png'
-import {CORE_CONCEPTS as crc} from './data.js'
-const reactDescriptions = ["Fundamental","Crucial", "Core"];
+import {CORE_CONCEPTS as crc} from './data.js';
+import Header from './components/Header.jsx';
+import CoreConcepts from './components/CoreConcepts.jsx';
 
-function getRandomInt(max){
-  return Math.floor(Math.random()* (max+1));
-}
-
-// When working with react functions, there is only one function which can be called any thing but it generally
-// named as props
-
-function Header(){
-  const descriptions  = reactDescriptions[getRandomInt(2)];
- 
-  return(<header>
-    <img src={reactImg} alt="Stylized atom" />
-    <h1>React Essentials</h1>
-    <p>
-      {descriptions} React concepts you will need for almost any app you are
-      going to build!
-    </p>
-  </header>);
-
-
-}
-
-function CoreConcepts({image, title, description}){
-  return(
-  <li>
-    <img src = {image} alt={title} />
-    <h3>{title}</h3>
-    <p>{description}</p>
-
-  </li>);
-}
 
 function App() {
   return (
